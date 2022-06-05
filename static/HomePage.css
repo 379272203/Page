@@ -134,13 +134,23 @@ p.title{
 #skills .title:before{
     content: "\f19d";
 }
-#works .title:before{
+#Projectexperience .title:before{
     content: "\f091";
 }
-#story .title:before{
+#experiences .title:before{
     content: "\f0b1";
 }
-#team .title:before{
+#Kumiku img{
+    transition: transform 0.3s;
+}
+#Kumiku img :hover{
+    transform: scale(1.05, 1.05);
+}
+#Kumiku k{
+    padding: 1em 0;
+    text-align: center;
+}
+#Projectcase .title:before{
     content: "\f024";
 }
 
@@ -170,6 +180,7 @@ p.title{
 .Projectexperience-item img{
     transition: transform 0.3s;
 }
+
 .Projectexperience-item img:hover{
     transform: scale(1.05, 1.05);
 }
@@ -177,6 +188,7 @@ p.title{
     padding: 1em 0;
     text-align: center;
 }
+
 
 /* -Project experiences */
 .timeline{
